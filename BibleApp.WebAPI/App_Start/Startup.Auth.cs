@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using BibleApp.WebAPI.Providers;
 using BibleApp.WebAPI.Models;
+using BibleApp.Data;
 
 namespace BibleApp.WebAPI
 {

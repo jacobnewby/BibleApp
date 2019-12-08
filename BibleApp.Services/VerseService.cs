@@ -12,9 +12,9 @@ namespace BibleApp.Services
     {
         private readonly Guid _userID;
 
-        public VerseService(Guid userid)
+        public VerseService(Guid userId)
         {
-            _userID = userid;
+            _userID = userId;
         }
 
         public bool CreateVerse(VerseCreate model)

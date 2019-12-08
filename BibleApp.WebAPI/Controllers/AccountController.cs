@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using BibleApp.WebAPI.Models;
 using BibleApp.WebAPI.Providers;
 using BibleApp.WebAPI.Results;
+using BibleApp.Data;
 
 namespace BibleApp.WebAPI.Controllers
 {

@@ -12,9 +12,9 @@ namespace BibleApp.Services
     {
         private readonly Guid _userID;
 
-        public VideoService(Guid userid)
+        public VideoService(Guid userId)
         {
-            _userID = userid;
+            _userID = userId;
         }
 
         public bool CreateVideo(VideoCreate model)
