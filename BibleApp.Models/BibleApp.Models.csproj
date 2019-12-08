@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CategoiesCreate.cs" />
+    <Compile Include="CategoriesCreate.cs" />
     <Compile Include="CategoriesListItem.cs" />
     <Compile Include="CategoriesDetail.cs" />
     <Compile Include="CategoriesEdit.cs" />

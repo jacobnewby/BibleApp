@@ -210,8 +210,11 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\VerseController.cs" />
+    <Compile Include="Controllers\VideoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -314,6 +317,14 @@
     <ProjectReference Include="..\BibleApp.Data\BibleApp.Data.csproj">
       <Project>{B4600459-1486-4F27-93EB-316CAF76201F}</Project>
       <Name>BibleApp.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BibleApp.Models\BibleApp.Models.csproj">
+      <Project>{d3b32cb4-61e6-49d3-8485-7fd2e35b1b53}</Project>
+      <Name>BibleApp.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BibleApp.Services\BibleApp.Services.csproj">
+      <Project>{4ac6979c-ed8b-424c-a490-7502a3a8acef}</Project>
+      <Name>BibleApp.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

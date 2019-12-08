@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BibleApp.Models
 {
-    public class CategoiesCreate
+    public class CategoriesCreate
     {
         public Guid UserID { get; set; }
         [Key]

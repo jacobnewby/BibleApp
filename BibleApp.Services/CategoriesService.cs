@@ -12,12 +12,12 @@ namespace BibleApp.Services
     {
         private readonly Guid _userID;
 
-        public CategoriesService(Guid userid)
+        public CategoriesService(Guid userId)
         {
-            _userID = userid;
+            _userID = userId;
         }
 
-        public bool CreateCategory(CategoiesCreate model)
+        public bool CreateCategory(CategoriesCreate model)
         {
             var entity =
                 new Categories()
